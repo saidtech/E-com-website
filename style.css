@@ -153,6 +153,10 @@ button:active {
     align-items: center;
 }
 
+.no-cursor {
+    cursor: not-allowed;
+}
+
 /* HIGHLIGHTS */
 
 #highlights {
@@ -276,4 +280,13 @@ button:active {
 
 #explore {
     background-color: rgba(115, 66, 214, 0.1);
+}
+
+footer {
+    padding: 56px 0;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
